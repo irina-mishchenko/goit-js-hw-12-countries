@@ -1,0 +1,47 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.search-form input {
+    font-size: 20px;
+    width: 400px;
+    height: 30px;
+}
+
+.country-card {
+    display: inline-block;
+    width: 500px;
+    background-color: antiquewhite;
+}
+
+.country-card__name {
+    text-align: center;
+}
+
+.country-card__list {
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    padding: 0;
+    line-height: 2.5;
+    list-style: none;
+    vertical-align: top;
+}
+
+.country-card__languages-list {
+    line-height: 1.5;
+    list-style-type: disc;
+}
+
+.country-card__list span {
+    font-weight: bold;
+}
+
+.img-flag {
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+}
